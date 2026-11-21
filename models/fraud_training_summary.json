@@ -1,0 +1,12 @@
+{
+  "best_model": "Random Forest",
+  "selection_metric": "PR-AUC",
+  "best_pr_auc": 0.7997570848683676,
+  "selection_reason": "Selected the model with the highest PR-AUC (average precision), using recall and F1-score as tie-breakers. PR-AUC emphasizes fraud detection quality under severe class imbalance.",
+  "random_state": 42,
+  "test_size": 0.2,
+  "training_rows": 226980,
+  "test_rows": 56746,
+  "dropped_unlabeled_rows": 0,
+  "dropped_duplicate_rows": 1081
+}

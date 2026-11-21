@@ -1,0 +1,40 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datasets: keep raw and processed data local, especially sensitive records
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/Credit card fraud.csv.csv
+/credit_risk_dataset.csv
+
+# Trained model artifacts
+/models/*.joblib
+/models/*.pkl
+/models/*.pickle
+/models/*.model
+/models/*.onnx
+*.joblib
+*.pickle
+
+# Temporary files, logs, and common tool caches
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints/
+.streamlit/secrets.toml
