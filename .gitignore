@@ -17,11 +17,8 @@ __pycache__/
 !/data/raw/.gitkeep
 /data/processed/*
 !/data/processed/.gitkeep
-<<<<<<< HEAD
 /Credit card fraud.csv.csv
 /credit_risk_dataset.csv
-=======
->>>>>>> 9f77e18 (Initial commit)
 
 # Trained model artifacts
 /models/*.joblib
